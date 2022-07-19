@@ -29,6 +29,8 @@ namespace OopsSeesion.Logic
                         {
                             max = j - i + 1;
                         }
+                        Console.WriteLine(max);
+
                     }
                 }
             }

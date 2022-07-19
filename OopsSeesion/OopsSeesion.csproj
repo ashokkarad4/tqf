@@ -3,8 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>OopsSeesion.Array.Array1</StartupObject>
-    <StartupObject>OopsSeesion.Collection.QueueDemo</StartupObject>
+    <StartupObject>OopsSeesion.Practice.Class1</StartupObject>
   </PropertyGroup>
 
 </Project>

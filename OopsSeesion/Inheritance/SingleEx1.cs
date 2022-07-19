@@ -7,11 +7,12 @@ namespace OopsSeesion.Inheritance
     class Bird
     {
         public string color="Green" ;
-      
+        public void a1()
+        { Console.WriteLine("Hiii"); }
     }
     class Parrot : Bird
     {
-        public void show()
+        public void nikhil(int a)
         {
             Console.WriteLine(color);
         }
@@ -21,7 +22,8 @@ namespace OopsSeesion.Inheritance
         static void Main(string[] args)
         {
             Parrot p = new Parrot();
-            p.show();
+            p.nikhil(5);
+            p.a1();
 
         }
     }

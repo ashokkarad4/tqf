@@ -13,8 +13,7 @@ namespace OopsSeesion.Logic
             int c;
             for (int i = 1; i <= n; i++)
             {
-                if(i==n)
-                    return a;
+                Console.WriteLine(a+" ");
                 
                 c = a + b;
                 a = b;

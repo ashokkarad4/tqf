@@ -22,13 +22,13 @@ namespace OopsSeesion.ExceptionHandling
     {
         static void Main(string[] args)
         {
-            Student[] sarr = new Student[3];
-            sarr[0] = new Student(1, "rohan");
-            Console.WriteLine(sarr[0].Name);
+          
             try
             {
-               
-                Console.WriteLine(sarr[1].Name);
+                Student[] sarr = new Student[3];
+                sarr[0] = new Student(1, "rohan");
+                Console.WriteLine(sarr[0].Name);
+                Console.WriteLine(sarr[0].Name);
             }
             catch(NullReferenceException e)
             {

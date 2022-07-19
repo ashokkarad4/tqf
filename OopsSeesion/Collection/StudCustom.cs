@@ -7,6 +7,7 @@ namespace OopsSeesion.Collection
     {
         int sid;
         string nm;
+        
 
         public StudCustom(int sid, string nm)
         {

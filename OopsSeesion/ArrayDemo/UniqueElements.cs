@@ -30,10 +30,10 @@ namespace OopsSeesion.ArrayDemo
                             count++;
                         }
                     }
-                   // if(count==1)
-                        if(count>1) //DuplicateElements
+                   if(count==1)//unique element
+                      //  if(count>1) //DuplicateElements
                     {
-                        Console.WriteLine(a[i]+" ");
+                        Console.WriteLine(a[i]+" "+count);
                     }
                 }
             }
